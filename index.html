@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comics</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+    <script src="https://unpkg.com/aframe-event-set-component@4.2.1/dist/aframe-event-set-component.min.js"></script>
+    <script src="./java.js"></script>
+
+</head>
+
+<body>
+
+    <a-scene id="scene" background="color:#1256dd">
+        
+        <a-plane id="ground" color="black" width="200" height="100" rotation="-90 0 0">
+        </a-plane>
+
+        <a-entity id="comic-container" comic-poster></a-entity>
+
+        <a-camera id="camera" wasd-controls="enabled:false" position="0 10 20"></a-camera>
+
+
+        <a-entity id="title" text="font:exo2bold; align:center; width:5; color:black; value:VIRTUAL COMIC STORE!;" position="0 13 15">
+            <a-entity id="title" text="font:exo2bold; align:center; width:3; color:black; value:GET YOUR FAVOURITE BOOKS;" position="0 -1 0"></a-entity>
+
+        </a-entity>
+
+        
+    </a-scene>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>
